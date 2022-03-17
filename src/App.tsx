@@ -15,8 +15,8 @@ function App() {
     <main style={{ width: "100vw", height: "100vh" }}>
       <Suspense fallback={""}>
         <Canvas gl={{ antialias: true }}>
-          <ambientLight intensity={0.25} />
-          <spotLight position={[5, 5, -2]} intensity={0.6} />
+          <ambientLight intensity={0.35} />
+          <spotLight position={[5, 5, -2]} intensity={0.5} />
           <OrbitControls />
           <a.mesh scale={spring.to([1, 0], [1.2, 1])}>
             <Vespa
