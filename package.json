@@ -1,0 +1,25 @@
+{
+  "name": "split-bike",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-spring/three": "^9.4.4",
+    "@react-three/drei": "^8.16.5",
+    "@react-three/fiber": "^7.0.26",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.138.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/three": "^0.138.0",
+    "@vitejs/plugin-react": "^1.0.7",
+    "vite": "^2.8.0"
+  }
+}
